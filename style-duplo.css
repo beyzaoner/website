@@ -1,0 +1,79 @@
+@import url('https://fonts.google.com/specimen/Quicksand?query=quicksa#standard-styles');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand';
+    /* border: solid black; */
+  }
+  .navbar {
+    position: fixed;
+    background-color: rgba(0, 0, 0,0.2);
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    margin: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .logo {
+    margin-left: 80%;
+  }
+  .pages {
+    display: flex;
+    font-size: 2em;
+    margin-right: 3%
+  }
+  .pages_inner {
+    color: black;
+    margin: 20px;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .pages:hover{
+    background-position: -100%;
+  }
+  .pages a{
+    text-decoration: none;
+    color:  black;
+  }
+  .pages a:hover{
+    color: #A01D2D;
+  }
+  a :visited{
+    color: black;
+    text-decoration: none;
+  }
+  .mainpage {
+      display: flex;
+      min-width: 100%;
+  }
+  .mainpage-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-right: 8%;
+  }
+  .mainpage-text h1{
+      font-size: 3em;
+      color: #A01D2D;
+  }
+  .mainpage-text p{
+      margin-top: 15%;
+      font-size: 1.5em;
+  }
+  .details {
+      margin: 5%;
+  }
+  .details-duo {
+      margin-top: 5%;
+  }
+  .details-duo h1{
+      margin-bottom: 2%;
+      font-size: 2em;
+      color: #A01D2D;
+  }
